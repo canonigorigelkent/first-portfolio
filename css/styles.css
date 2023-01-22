@@ -1,0 +1,77 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;700&display=swap");
+
+:root {
+  background-color: #f2e8cf;
+}
+
+body {
+  margin: 10px;
+}
+
+article {
+  float:none;
+  text-align: center;
+}
+
+*{
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: xx-large;
+}
+
+#MenuBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #386641;
+}
+
+.MenuList {
+  float: left;
+}
+
+.MenuList>a {
+  display: block;
+  padding: 12px;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: #386641;
+}
+
+/* Remove underlines under links */
+
+.MenuList>a:link, .MenuList>a:visited {
+  color:white;
+  text-decoration: none;
+}
+
+.MenuList>a:hover {
+  color:white;
+  text-decoration: none;
+}
+
+.MenuList>a:active {
+  color: white;
+  background-color: #6a994e;
+  text-decoration: none;
+}
+
+/* Remove underlines under links */
+
+#ProfilePhoto {
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SkillsList {
+  display: inline-block;
+  text-align: left;
+}
